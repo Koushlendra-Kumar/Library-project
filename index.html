@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Library</h1>
+      <div class="head-items">
+        <div class="login">
+          <button type="button" class="login-btn" name="button">Login/Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="form-container">
+      <div class="book-details-title">
+        <div class="heading">Book Details</div>
+        <div class="close-btn">X</div>
+      </div>
+      <form action="" method="post">
+        <label for="title">Book Title</label>
+        <input type="text" name="title" id="title" required>
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author">
+        <label for="pages">Pages</label>
+        <input type="number" name="pages" id="pages">
+        <div class="checkbox">
+          <input type="checkbox" name="status" id="status">
+          <label for="status">Read Status</label>
+        </div>
+        <div class="buttons">
+          <button type="reset">Reset</button>
+          <button class="submit" type="button">Add</button>
+        </div>
+      </form>
+    </div>
+    <div class="main-body">
+      <div class="book-cover next-book">
+        <button type="button" class="add-book-button" name="button">+</button>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy The Odin Project 2022
+      <div class="view-code">
+        <a href="https://github.com/Koushlendra-Kumar/Library-project">Source Code</a>
+      </div>
+    </div>
+  </body>
+</html>
