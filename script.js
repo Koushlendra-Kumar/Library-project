@@ -19,13 +19,14 @@ let bookObj;
 
 let myLibrary = [];
 
-function Book(title, author, pages, reStatus){
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.reStatus = reStatus;
+class Book{
+    constructor(title, author, pages, reStatus){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.reStatus = reStatus;
+    }
 }
-
 function addBookToLibrary(){  
     bookObj = new Book(title, author, pages , reStatus);
     myLibrary.push(bookObj);
